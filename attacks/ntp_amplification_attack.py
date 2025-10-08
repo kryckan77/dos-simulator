@@ -1,4 +1,3 @@
-ntp_amplification_attack.py ====================
 """
 NTP Amplification Attack
 Utnyttjar NTP monlist-kommando för extrem amplification

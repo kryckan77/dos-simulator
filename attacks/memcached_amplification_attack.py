@@ -1,4 +1,3 @@
-memcached_amplification_attack.py ====================
 """
 Memcached Amplification Attack
 EXTREMT kraftfull amplification (10,000x - 51,000x!)

